@@ -2,6 +2,10 @@
 
 Training Design Patterns with Python.
 
+## Requirements
+
+- Python >= 3.7
+
 ## Usage
 
 ```sh
