@@ -1,4 +1,4 @@
-# pylint: disable=no-self-use
+# pylint: disable=too-few-public-methods
 """
     Abstract Chair Product
 """
@@ -12,7 +12,3 @@ class AbstractChair(ABC):
     @abstractmethod
     def useful_chair_method(self) -> None:
         """ A special chair method. """
-
-    def make(self) -> None:
-        """" Create the product. """
-        print("Chair created!")
