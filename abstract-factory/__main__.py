@@ -16,7 +16,7 @@ def decorate(factory: AbstractFactory):
     """ Returns a built product.
 
     Args:
-        factory (Factory): abstract factory.
+        factory (AbstractFactory): abstract factory.
 
     Returns:
         Product: concrete product.

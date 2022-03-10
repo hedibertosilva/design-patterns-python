@@ -9,7 +9,7 @@ Training Design Patterns with Python.
 ## Usage
 
 ```sh
-python3 -u <pattern_path>
+python3 <pattern_path>
 ```
 
 ## Contributing
