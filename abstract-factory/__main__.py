@@ -6,13 +6,13 @@
     E-mail: hed.cavalcante@gmail.com
 """
 
-from factories.interfaces.factory import Factory
+from factories.interfaces.factory import AbstractFactory
 from factories.art_deco import ArtDecoFactory
 from factories.modern import ModernFactory
 from factories.victorian import VictorianFactory
 
 
-def decorate(factory: Factory):
+def decorate(factory: AbstractFactory):
     """ Returns a built product.
 
     Args:

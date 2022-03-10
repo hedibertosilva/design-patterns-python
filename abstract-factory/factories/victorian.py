@@ -2,12 +2,12 @@
     Concrete Victorian Factory
 """
 
-from factories.interfaces.factory import Factory
+from factories.interfaces.factory import AbstractFactory
 from products.chair import ChairVictorian
 from products.sofa import SofaVictorian
 
 
-class VictorianFactory(Factory):
+class VictorianFactory(AbstractFactory):
     """ Concrete Factory """
     _product: str
 

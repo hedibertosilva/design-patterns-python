@@ -2,12 +2,12 @@
     Concrete Art Deco Factory
 """
 
-from factories.interfaces.factory import Factory
+from factories.interfaces.factory import AbstractFactory
 from products.chair import ChairArtDeco
 from products.sofa import SofaArtDeco
 
 
-class ArtDecoFactory(Factory):
+class ArtDecoFactory(AbstractFactory):
     """ Concrete Factory """
     _product: str
 
