@@ -21,7 +21,7 @@ Training Abstract Factory method with Python.
 ## Usage
 
 ```sh
-python3 -u factory-method
+python3 -u abstract-factory
 ```
 
 ## Contributing
