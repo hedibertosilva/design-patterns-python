@@ -14,21 +14,25 @@ class Car(Builder):
 
     @staticmethod
     def reset() -> Builder:
-        """ Returns a new Concrete Product """
+        """ Returns a new Concrete Product.
+
+        Returns:
+            Builder: Concrete Product
+        """
         return ConcreteCar()
 
-    def set_seat(self, number) -> None:
+    def set_seat(self, number: int) -> None:
         """ Set the number of seats. """
         self.car.add(f"sets: {number}")
 
-    def set_engine(self, engine) -> None:
+    def set_engine(self, engine: str) -> None:
         """ Set the engine type. """
         self.car.add(f"engine type: {engine}")
 
-    def set_gps(self):
+    def set_gps(self) -> None:
         """ Enable GPS. """
         self.car.add("GPS enabled")
 
-    def get_result(self):
+    def get_result(self) -> None:
         """ Show parts included in the car. """
         self.car.list_parts()
