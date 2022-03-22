@@ -4,6 +4,8 @@ Training Builder Method with Python.
 
 ## Annotations
 
+![alt UML Builder Method](https://github.com/hedibertosilva/design-patterns-python/blob/main/builder-method/contents/draw.png?raw=true)
+
 - The Director class is a cookbook that it has a pre-set of full products.
 - The Director class is a bridge to connect to the Builder class.
 - The Builder class separates the application to the Car (concrete product).
