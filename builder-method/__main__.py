@@ -6,15 +6,15 @@
     E-mail: hed.cavalcante@gmail.com
 """
 from director import Director
-from builders.car import Car
+from builders.car import BuilderCar
 
 
 def main() -> None:
     """ Initializer Method. """
     car_store = Director()
-    car_a = Car()
-    car_b = Car()
-    car_c = Car()
+    car_a = BuilderCar()
+    car_b = BuilderCar()
+    car_c = BuilderCar()
 
     car_store.product = car_a
     car_store.make_sports_car()

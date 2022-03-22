@@ -6,7 +6,7 @@ from products.car import ConcreteCar
 from builders.interfaces.builder import Builder
 
 
-class Car(Builder):
+class BuilderCar(Builder):
     """ Concrete Builder """
 
     def __init__(self) -> None:
