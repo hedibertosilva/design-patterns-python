@@ -6,7 +6,7 @@ Training Adapter Method with Python.
 
 - The sensor reader only accepts JSON Format.
 - The sensor reader uses the same Sensor Interface used on compatible sensors.
-- The adapter is the only way to become the Humidity library (3rd-party) with the current system.
+- The Humidity Adapter is the only way to become the Humidity library (3rd-party) compatible with the current system.
 
 ## Requirements
 
