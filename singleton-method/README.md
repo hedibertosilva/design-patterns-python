@@ -4,6 +4,8 @@ Training Singleton Method with Python.
 
 ## Annotations
 
+![alt Singleton Method](https://github.com/hedibertosilva/design-patterns-python/blob/main/singleton-method/contents/draw.png?raw=true)
+
 - Singleton Metaclass change the original call for new instances.
 - The Database singleton class is able to cache the first call.
 - All the new calls will return a instance cached.
