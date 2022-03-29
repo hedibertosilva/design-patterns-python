@@ -1,4 +1,4 @@
-# Singleton Method
+# Adapter Method
 
 Training Adapter Method with Python.
 
@@ -15,7 +15,7 @@ Training Adapter Method with Python.
 ## Usage
 
 ```sh
-python3 -u singleton-method
+python3 -u adapter-method
 ```
 
 ## Contributing
