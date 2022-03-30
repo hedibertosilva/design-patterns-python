@@ -4,7 +4,7 @@ Training Factory Method with Python.
 
 ## Annotations
 
-![alt UML Factory Method](https://github.com/hedibertosilva/design-patterns-python/blob/main/factory-method/contents/draw.png?raw=true)
+![alt UML Factory Method](https://github.com/hedibertosilva/design-patterns-python/blob/main/creational-patterns/factory-method/contents/draw.png?raw=true)
 
 - Concrete Products populates the setter method (Concrete Factory);
 - Setter method (Concrete Factory) calls set_color method (Concrete Product);

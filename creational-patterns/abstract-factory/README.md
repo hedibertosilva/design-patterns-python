@@ -4,7 +4,7 @@ Training Abstract Factory method with Python.
 
 ## Annotations
 
-![alt Abstract Factory Method](https://github.com/hedibertosilva/design-patterns-python/blob/main/abstract-factory/contents/draw.png?raw=true)
+![alt Abstract Factory Method](https://github.com/hedibertosilva/design-patterns-python/blob/main/creational-patterns/abstract-factory/contents/draw.png?raw=true)
 
 - Concrete Products populates the setter method (Concrete Factory);
 - Setter method (Concrete Factory) choise what type of product must be returned based on input product field;
